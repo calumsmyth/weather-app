@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 .glow-sun {
     box-shadow: 0 0 50px 30px rgba(252, 211, 77, 0.5);
 }
