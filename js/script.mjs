@@ -51,8 +51,6 @@ const fetchWeather = () => {
     //Add command for appropriate weather image to display for each weather condition.
     if (data.weather[0].main == "Clouds"){
         weatherIcon.src= "/weather-app/weather-images/cloud.png";
-    } else if (data.weather[0].main == "Clouds"){
-        weatherIcon.src= "/weather-app/weather-images/cloud.png";
     } else if (data.weather[0].main == "Clear"){
         weatherIcon.src= "/weather-app/weather-images/sun.png";
     } else if (data.weather[0].main == "Drizzle"){
@@ -65,7 +63,9 @@ const fetchWeather = () => {
         weatherIcon.src= "/weather-app/weather-images/snow.png";
     } else if (data.weather[0].main == "Thunderstorm"){
         weatherIcon.src= "/weather-app/weather-images/thunder.png";
-    } 
+    } else {
+        weatherIcon.src= "/weather-app/weather-images/city.png"
+    }
 
     })  
         //Error message if unable to retrieve data
