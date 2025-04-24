@@ -1,0 +1,5 @@
+A working Weather App.
+Created as practice calling and displaying API information. 
+Overall goal of the project is to practice TailwindCSS, JavaScript and APIs in a working weather app.  
+Tailwind used as main styling tool.
+Still under development with further ideas to be implemented.
