@@ -64,7 +64,7 @@ const fetchWeather = () => {
     } else if (data.weather[0].main == "Thunderstorm"){
         weatherIcon.src= "/weather-app/weather-images/thunder.png";
     } else {
-        weatherIcon.src= "/weather-app/weather-images/city.png"
+        weatherIcon.src= "/weather-app/weather-images/city.png";
     }
 
     })  

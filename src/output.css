@@ -35,6 +35,9 @@
     padding: 0;
     border: 0 solid;
   }
+  html, body {
+    height: 100%;
+  }
   html, :host {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
