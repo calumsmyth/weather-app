@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.glow-sun {
+    box-shadow: 0 0 50px 30px rgba(252, 211, 77, 0.5);
+}
+
+@keyframes pulse-glow {
+    0%, 100%{
+        box-shadow: 0 0 50px 30px rgba(252, 211, 77, 0.5);
+    }
+    50%{
+        box-shadow: 0 0 80px 70px rgba(252, 211, 77, 0.7);
+    }
+}
+
+.glow-pulse{
+    animation: pulse-glow 5s infinite;
+}
