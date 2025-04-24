@@ -35,6 +35,7 @@ const fetchWeather = () => {
             const cityName = data.name
             const temperature = Math.round(data.main.temp);
             const description = data.weather[0].description;
+
             //Create description with capitalised first letter. 
             const words = description.split(" ")
             for (let i = 0; i < words.length; i++){
@@ -47,6 +48,7 @@ const fetchWeather = () => {
             temperatureElement.innerHTML = `<p>${temperature}°C</p>`;
             cityNameElement.innerHTML = `<p>${cityName}</p>`;
         
+    //Add command for appropriate weather image to display for each weather condition.
     if (data.weather[0].main == "Clouds"){
         weatherIcon.src= "/weather-app/weather-images/cloud.png";
     } else if (data.weather[0].main == "Clouds"){
