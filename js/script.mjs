@@ -44,11 +44,12 @@ const fetchWeather = () => {
             const capitalSentence = words.join(" ")
 
             //Replace existing paragraph with new paragraph including retrieved information
-            weatherInfoElement.innerHTML = `<p>${capitalSentence}</p>`;
-            temperatureElement.innerHTML = `<p>${temperature}°C</p>`;
-            cityNameElement.innerHTML = `<p>${cityName}</p>`;
+            weatherInfoElement.innerHTML = `<p class="text-white">${capitalSentence}</p>`;
+            temperatureElement.innerHTML = `<p class="text-white">${temperature}°C</p>`;
+            cityNameElement.innerHTML = `<p class="text-white">${cityName}</p>`;
         
     //Add command for appropriate weather image to display for each weather condition.
+    //NOTE - Routing works for hosing on GitHub, but not locally on Live server, need to change '/weather-app/ to './weather-images....'
     if (data.weather[0].main == "Clouds"){
         weatherIcon.src= "/weather-app/weather-images/cloud.png";
     } else if (data.weather[0].main == "Clear"){
