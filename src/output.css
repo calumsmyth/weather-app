@@ -195,11 +195,20 @@
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
+  .h-\[32rem\] {
+    height: 32rem;
+  }
+  .h-\[36rem\] {
+    height: 36rem;
+  }
   .h-\[540px\] {
     height: 540px;
   }
   .h-\[600px\] {
     height: 600px;
+  }
+  .h-auto {
+    height: auto;
   }
   .min-h-screen {
     min-height: 100vh;
@@ -207,11 +216,20 @@
   .w-40 {
     width: calc(var(--spacing) * 40);
   }
+  .w-\[32rem\] {
+    width: 32rem;
+  }
+  .w-\[36rem\] {
+    width: 36rem;
+  }
   .w-\[540px\] {
     width: 540px;
   }
   .w-\[600px\] {
     width: 600px;
+  }
+  .w-auto {
+    width: auto;
   }
   .flex-shrink {
     flex-shrink: 1;
