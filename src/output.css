@@ -237,6 +237,9 @@
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
+  .h-\[24rem\] {
+    height: 24rem;
+  }
   .h-\[26rem\] {
     height: 26rem;
   }
@@ -302,6 +305,9 @@
   }
   .w-150 {
     width: calc(var(--spacing) * 150);
+  }
+  .w-\[24rem\] {
+    width: 24rem;
   }
   .w-\[26rem\] {
     width: 26rem;
