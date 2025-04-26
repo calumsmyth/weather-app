@@ -35,9 +35,6 @@
     padding: 0;
     border: 0 solid;
   }
-  html, body {
-    height: 100%;
-  }
   html, :host {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
@@ -195,20 +192,20 @@
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
-  .h-120 {
-    height: calc(var(--spacing) * 120);
+  .h-\[540px\] {
+    height: 540px;
   }
-  .h-full {
-    height: 100%;
-  }
-  .min-h-160 {
-    min-height: calc(var(--spacing) * 160);
+  .min-h-screen {
+    min-height: 100vh;
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
   }
-  .w-120 {
-    width: calc(var(--spacing) * 120);
+  .w-\[540px\] {
+    width: 540px;
+  }
+  .shrink-0 {
+    flex-shrink: 0;
   }
   .flex-col {
     flex-direction: column;
@@ -308,16 +305,19 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .text-white {
+    color: var(--color-white);
+  }
 }
 .glow-sun {
   box-shadow: 0 0 50px 30px rgba(252, 211, 77, 0.5);
 }
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 50px 30px rgba(252, 211, 77, 0.5);
+    box-shadow: 0 0 70px 30px rgba(252, 211, 77, 0.5);
   }
   50% {
-    box-shadow: 0 0 80px 70px rgba(252, 211, 77, 0.7);
+    box-shadow: 0 0 100px 74px rgba(253, 183, 77, 0.7);
   }
 }
 .glow-pulse {
