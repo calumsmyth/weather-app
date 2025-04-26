@@ -51,28 +51,28 @@ const fetchWeather = () => {
     //Add command for appropriate weather image to display for each weather condition.
     //NOTE - Routing works for hosing on GitHub, but not locally on Live server, need to change '/weather-app/ to './weather-images....'
     if (data.weather[0].main == "Clouds"){
-        weatherIcon.src= "/weather-app/weather-images/cloud.png";
+        weatherIcon.src= "./weather-images/cloud.png";
         weatherIcon.alt= "Cloudy weather";
     } else if (data.weather[0].main == "Clear"){
-        weatherIcon.src= "/weather-app/weather-images/sun.png";
+        weatherIcon.src= "./weather-images/sun.png";
         weatherIcon.alt= "Sunny weather";
     } else if (data.weather[0].main == "Drizzle"){
-        weatherIcon.src= "/weather-app/weather-images/drizzle.png";
+        weatherIcon.src= "./weather-images/drizzle.png";
         weatherIcon.alt= "Drizzly weather";
     } else if (data.weather[0].main == "Rain"){
-        weatherIcon.src= "/weather-app/weather-images/rain.png";
+        weatherIcon.src= "./weather-images/rain.png";
         weatherIcon.alt= "Rainy weather";
     } else if (data.weather[0].main == "Mist"){
-        weatherIcon.src= "/weather-app/weather-images/mist.png";
+        weatherIcon.src= "./weather-images/mist.png";
         weatherIcon.alt= "Misty weather";
     } else if (data.weather[0].main == "Snow"){
-        weatherIcon.src= "/weather-app/weather-images/snow.png";
+        weatherIcon.src= "./weather-images/snow.png";
         weatherIcon.alt= "Snowy weather"
     } else if (data.weather[0].main == "Thunderstorm"){
-        weatherIcon.src= "/weather-app/weather-images/thunder.png";
+        weatherIcon.src= "./weather-images/thunder.png";
         weatherIcon.alt= "Thunderstorms"
     } else {
-        weatherIcon.src= "/weather-app/weather-images/city.png";
+        weatherIcon.src= "./weather-images/city.png";
         weatherIcon.alt= "Image of a city"
     }
 
