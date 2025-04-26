@@ -195,6 +195,12 @@
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
+  .h-\[28rem\] {
+    height: 28rem;
+  }
+  .h-\[29rem\] {
+    height: 29rem;
+  }
   .h-\[32rem\] {
     height: 32rem;
   }
@@ -215,6 +221,12 @@
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
+  }
+  .w-\[28rem\] {
+    width: 28rem;
+  }
+  .w-\[29rem\] {
+    width: 29rem;
   }
   .w-\[32rem\] {
     width: 32rem;
