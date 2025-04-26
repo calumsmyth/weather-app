@@ -178,11 +178,29 @@
   .mt-0 {
     margin-top: calc(var(--spacing) * 0);
   }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
+  }
+  .mt-14 {
+    margin-top: calc(var(--spacing) * 14);
+  }
   .mb-0 {
     margin-bottom: calc(var(--spacing) * 0);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
   }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
@@ -219,6 +237,9 @@
   .h-15 {
     height: calc(var(--spacing) * 15);
   }
+  .h-16 {
+    height: calc(var(--spacing) * 16);
+  }
   .h-18 {
     height: calc(var(--spacing) * 18);
   }
@@ -236,6 +257,15 @@
   }
   .h-40 {
     height: calc(var(--spacing) * 40);
+  }
+  .h-\[16rem\] {
+    height: 16rem;
+  }
+  .h-\[18rem\] {
+    height: 18rem;
+  }
+  .h-\[20rem\] {
+    height: 20rem;
   }
   .h-\[24rem\] {
     height: 24rem;
@@ -306,6 +336,15 @@
   .w-150 {
     width: calc(var(--spacing) * 150);
   }
+  .w-\[16rem\] {
+    width: 16rem;
+  }
+  .w-\[18rem\] {
+    width: 18rem;
+  }
+  .w-\[20rem\] {
+    width: 20rem;
+  }
   .w-\[24rem\] {
     width: 24rem;
   }
@@ -356,6 +395,18 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
+  }
+  .gap-0\.5 {
+    gap: calc(var(--spacing) * 0.5);
+  }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
@@ -441,11 +492,17 @@
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
   }
+  .pb-4 {
+    padding-bottom: calc(var(--spacing) * 4);
+  }
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
   }
   .pb-7 {
     padding-bottom: calc(var(--spacing) * 7);
+  }
+  .pb-8 {
+    padding-bottom: calc(var(--spacing) * 8);
   }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
@@ -464,6 +521,9 @@
   }
   .pb-18 {
     padding-bottom: calc(var(--spacing) * 18);
+  }
+  .pb-19 {
+    padding-bottom: calc(var(--spacing) * 19);
   }
   .pb-20 {
     padding-bottom: calc(var(--spacing) * 20);
