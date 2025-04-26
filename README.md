@@ -4,4 +4,4 @@ Overall goal of the project is to practice TailwindCSS, JavaScript and APIs in a
 Tailwind used as main styling tool.
 Still under development with further ideas to be implemented.
 
-If I was to do this project again, I would use a library such as React for faster, more efficient loading.
+If I was to start this project again, I would use a library such as React for faster, more efficient loading.
