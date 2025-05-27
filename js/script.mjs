@@ -24,12 +24,6 @@ const fetchWeather = () => {
         //Convert API response into JSON format and console.log selected information under specified titles
         .then(response => response.json())
         .then(data => {
-            console.log("Raw JSON response:", data);
-            console.log("Processed JSON Data:", {
-                city: data.name,
-                temperature: data.main.temp,
-                description: data.weather[0].description
-            })
 
             //Store retrieved data in invariables
             const cityName = data.name
