@@ -25,7 +25,7 @@ const fetchWeather = () => {
         .then(response => response.json())
         .then(data => {
 
-            //Store retrieved data in invariables
+            //Store retrieved data in variables
             const cityName = data.name
             const temperature = Math.round(data.main.temp);
             const description = data.weather[0].description;
