@@ -59,12 +59,19 @@ const fetchWeather = () => {
     } else if (data.weather[0].main == "Mist"){
         weatherIcon.src= "./weather-images/mist.png";
         weatherIcon.alt= "Misty weather";
+    } else if (data.weather[0].main == "Haze"){
+        weatherIcon.src="./weather-images/mist.png";
+        weatherIcon.alt="Hazy weather";
+    } else if (data.weather[0].main == "Fog"){
+        weatherIcon.src= "./weather-images/mist.png";
+        weatherIcon.alt= "Foggy weather";
     } else if (data.weather[0].main == "Snow"){
         weatherIcon.src= "./weather-images/snow.png";
         weatherIcon.alt= "Snowy weather"
     } else if (data.weather[0].main == "Thunderstorm"){
         weatherIcon.src= "./weather-images/thunder.png";
         weatherIcon.alt= "Thunderstorms"
+ 
     } else {
         weatherIcon.src= "./weather-images/city.png";
         weatherIcon.alt= "Image of a city"
